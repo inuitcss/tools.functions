@@ -21,6 +21,10 @@
    }
  *
  */
+@function quarter($number) {
+    @return round($number / 4);
+}
+
 @function halve($number) {
     @return round($number / 2);
 }
